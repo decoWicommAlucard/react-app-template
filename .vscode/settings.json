@@ -20,5 +20,20 @@
       "directory": "node",
       "changeProcessCWD": true
     }
-  ]
+  ],
+  "files.exclude": {
+    ".github": true,
+    ".vtex": true,
+    "docs": true,
+    "messages": true,
+    "node_modules": true,
+    ".editorconfig": true,
+    ".eslintignore": true,
+    ".all-contributorsrc": true,
+    ".eslintrc": true,
+    ".prettierrc": true,
+    ".vtexignore": true,
+    "crowdin.yml": true,
+    "dangerfile.js": true
+  }
 }

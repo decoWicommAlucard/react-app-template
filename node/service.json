@@ -1,0 +1,18 @@
+{
+  "memory": 128,
+  "ttl": 10,
+  "timeout": 10,
+  "minReplicas": 2,
+  "maxReplicas": 10,
+  "workers": 4,
+  "routes": {
+    "pingOms": {
+      "path": "/_v/oms/ping",
+      "public": true
+    },
+    "getOrder": {
+      "path": "/_v/oms/order/:orderId",
+      "public": false
+    }
+  }
+}
